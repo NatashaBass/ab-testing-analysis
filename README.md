@@ -156,6 +156,44 @@
 - power analysis
 - анализ конверсии
 
+## Запуск проекта
+
+### Системные требования
+
+Для локального запуска notebook потребуется:
+
+- Python 3.x;
+- Jupyter Notebook;
+- библиотеки pandas, SciPy, Statsmodels и Matplotlib.
+
+Установить необходимые библиотеки можно командой:
+
+```bash
+pip install pandas scipy statsmodels matplotlib jupyter
+```
+
+### Локальный запуск
+
+Склонируйте репозиторий:
+
+```bash
+git clone https://github.com/NatashaBass/ab-testing-analysis.git
+cd ab-testing-analysis
+```
+
+Запустите Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Откройте файл `ab_testing_analysis.ipynb`.
+
+Для полного повторного выполнения анализа необходимы исходные датасеты проекта. При локальном запуске пути к файлам данных в notebook могут потребовать изменения в соответствии с их расположением на вашем компьютере.
+
+Отдельного развёртывания приложения не требуется.
+
 ## Файлы
 
-- [`ab_testing_analysis.ipynb`](ab_testing_analysis.ipynb) — полный анализ, код, расчёты, визуализации и выводы
+- [`ab_testing_analysis.ipynb`](ab_testing_analysis.ipynb) — подготовка данных, проверка статистических гипотез, анализ A/B-теста и выводы
+
